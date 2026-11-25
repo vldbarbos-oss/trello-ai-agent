@@ -1,0 +1,43 @@
+# Ambientes virtuais
+.venv/
+venv/
+ENV/
+env/
+
+# Variáveis de ambiente e credenciais
+.env
+*.env
+!.env.exemplo
+
+# Python bytecode e caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Google ADK / Sessões e Bancos de Dados Locais
+.adk/
+*.sqlite
+*.sqlite3
+*.db
+sessions/
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs e Arquivos Temporários
+*.log
+*.tmp
+*.temp
+
+# Arquivos de Sistema Operacional
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store

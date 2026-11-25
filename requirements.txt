@@ -1,0 +1,4 @@
+google-adk>=2.15.0
+py-trello>=0.20.0
+python-dotenv>=1.0.0
+pytest>=8.0.0
